@@ -12,11 +12,12 @@
     <entry key="BSP.experimental.feature.enabled" value="false" />
     <entry key="BSP.system.in.process" value="$IS_LOCAL_BUILD$" />
     <entry key="ide.balloon.shadow.size" value="0" />
+    <entry key="external.system.auto.import.disabled" value="$IS_LOCAL_BUILD$" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
       <map>
-        <entry key="Memory" value="true" />
+        <entry key="Memory" value="$IS_LOCAL_BUILD$" />
       </map>
     </option>
   </component>
