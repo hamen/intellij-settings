@@ -1,0 +1,48 @@
+<templateSet group="AndroidKotlin">
+  <template name="IntentView" value="val intent = android.content.Intent()&#10;    .setAction(Intent.ACTION_VIEW)&#10;    .setData(android.net.Uri.parse($url$))&#10;    &#10;startActivity(intent)" description="Creates an Intent with ACTION_VIEW" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="key" value="private const val KEY_$value$ = &quot;$value$&quot;" description="Key for a bundle" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="newInstance" value="fun newInstance($args$): $fragment$ {&#10;    val args = Bundle()&#10;    $addArgs$&#10;    val fragment = $fragment$()&#10;    fragment.arguments = args&#10;    return fragment&#10;}" description="create a new Fragment instance with arguments" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fragment" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="addArgs" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rgS" value="$resources$.getString(R.string.$stringId$)" description="get a String from resources" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="resources" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="stringId" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rouiT" value="activity.runOnUiThread(java.lang.Runnable() {&#10;    override fun run() {&#10;        $cursor$&#10;    }&#10;})" description="runOnUIThread" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="sbc" value="///////////////////////////////////////////////////////////////////////////&#10;// $blockName$&#10;///////////////////////////////////////////////////////////////////////////" description="block comment for structuring code" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="blockName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="starter" value="@JvmStatic fun start(context: android.content.Context) {&#10;    val starter = Intent(context, $ACTIVITY$::class.java)&#10;        .putExtra($CURSOR$)&#10;    context.startActivity(starter)&#10;}" description="Creates a static start(...) helper method to start an Activity" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ACTIVITY" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="viewGone" value="$VIEW$.visibility = android.view.View.GONE" description="Set view visibility to GONE" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="viewVisible" value="$VIEW$.visibility = android.view.View.VISIBLE" description="Set view visibility to VISIBLE" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="newscreen" value="import android.os.Bundle&#10;import android.view.View&#10;import androidx.fragment.app.Fragment&#10;import androidx.lifecycle.MutableLiveData&#10;import com.bendingspoons.thirtydayfitness.R&#10;import com.bendingspoons.thirtydayfitness.util.exhaustive&#10;import org.koin.androidx.viewmodel.ext.android.viewModel&#10;&#10;class $NAME$Fragment : Fragment(R.layout.cookbook_filters_fragment) {&#10;    private val viewModel: $NAME$ViewModel by viewModel()&#10;&#10;    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {&#10;        super.onViewCreated(view, savedInstanceState)&#10;&#10;        viewModel.state.observe(viewLifecycleOwner) { state -&gt;&#10;            when (state) {&#10;            }.exhaustive&#10;        }&#10;    }&#10;}&#10;&#10;class $NAME$ViewModel : ViewModel() {&#10;    val state = MutableLiveData&lt;$NAME$States&gt;()&#10;    val actions = MutableLiveData&lt;$NAME$Actions&gt;()&#10;&#10;    fun send(event: $NAME$Event) {&#10;        when (event) {&#10;        }.exhaustive&#10;    }&#10;}&#10;&#10;sealed class $NAME$Actions {&#10;&#10;}&#10;&#10;sealed class $NAME$Event {&#10;&#10;}&#10;&#10;sealed class $NAME$States {&#10;&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

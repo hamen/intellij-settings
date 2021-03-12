@@ -1,0 +1,5 @@
+<list display="ORS">
+  <action id="OptimizeImports" />
+  <action id="ReformatCode" />
+  <action id="SaveAll" />
+</list>

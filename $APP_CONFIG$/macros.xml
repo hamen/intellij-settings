@@ -1,0 +1,12 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="ORS">
+      <action id="OptimizeImports" />
+      <action id="ReformatCode" />
+    </macro>
+    <macro name="Uninstall ➡ Run">
+      <action id="com.developerphil.adbidea.action.UninstallAction" />
+      <action id="Run" />
+    </macro>
+  </component>
+</application>

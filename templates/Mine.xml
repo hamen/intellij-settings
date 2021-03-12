@@ -1,0 +1,35 @@
+<templateSet group="Mine">
+  <template name="viewmodelLaunch" value="viewModelScope.launch { $SELECTION$ }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="onIO" value="withContext(Dispatchers.IO) {&#10;    $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="by lazy" value="by lazy { $SELECTION$ }" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="tinder" value="Timber.d($MESSAGE$)" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="newfragment" value="class $FRAGMENT_NAME$Fragment : Fragment(R.layout.$FRAGMENT_LAYOUT$) {&#10;    private var _binding: Fragment$FRAGMENT_NAME$Binding? = null&#10;    private val binding get() = _binding!!&#10;&#10;    override fun onCreateView(&#10;        inflater: LayoutInflater,&#10;        container: ViewGroup?,&#10;        savedInstanceState: Bundle?&#10;    ): View {&#10;        _binding = Fragment$FRAGMENT_NAME$Binding.inflate(inflater, container, false)&#10;        return binding.root&#10;    }&#10;&#10;    override fun onDestroyView() {&#10;        super.onDestroyView()&#10;        _binding = null&#10;    }&#10;&#10;    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {&#10;        super.onViewCreated(view, savedInstanceState)&#10;&#10;    }&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="FRAGMENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FRAGMENT_LAYOUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="lifecycleScope" value="lifecycleScope.launch { $SELECTION$ }" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

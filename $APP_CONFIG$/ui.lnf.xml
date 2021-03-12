@@ -1,0 +1,10 @@
+<application>
+  <component name="UISettings">
+    <option name="compactTreeIndents" value="$IS_LOCAL_BUILD$" />
+    <option name="DISABLE_MNEMONICS" value="false" />
+    <option name="IDE_AA_TYPE" value="Greyscale" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="23" />
+    <option name="MAX_LOOKUP_WIDTH2" value="1579" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="$IS_LOCAL_BUILD$" />
+  </component>
+</application>

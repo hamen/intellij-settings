@@ -1,0 +1,9 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="MAVEN_REPOSITORY" value="/Users/hamen/.m2/repository" />
+    <macro name="ANDROID_HOME" value="/Users/hamen/android-sdk-macosx" />
+    <macro name="IS_LOCAL_BUILD" value="true" />
+    <macro name="JITPACK" value="4c18773b2d4c6f7faf5d778bf3c2df7a6d58a3e2" />
+    <macro name="KOTLIN_BUNDLED" value="/Users/hamen/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/203.7148.57/IntelliJ IDEA.app.plugins/Kotlin/kotlinc" />
+  </component>
+</application>
