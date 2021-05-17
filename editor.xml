@@ -11,6 +11,8 @@
     <EXCLUDED_PACKAGE NAME="com.facebook.common" />
     <EXCLUDED_PACKAGE NAME="com.google.android.gms.common.data.DataBufferObserver.Observable" />
     <EXCLUDED_PACKAGE NAME="com.sun.istack.internal.Nullable" />
+    <EXCLUDED_PACKAGE NAME="java.lang.reflect.Modifier" />
+    <EXCLUDED_PACKAGE NAME="java.nio.file.WatchEvent.Modifier" />
     <EXCLUDED_PACKAGE NAME="java.security.cert.PKIXRevocationChecker.Option" />
     <EXCLUDED_PACKAGE NAME="java.sql.Date" />
     <EXCLUDED_PACKAGE NAME="java.util.Observable" />
