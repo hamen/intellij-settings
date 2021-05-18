@@ -204,7 +204,6 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.kotlin" />
               <option name="myPluginName" value="Kotlin" />
-              <option name="myBundled" value="$IS_LOCAL_BUILD$" />
             </plugin>
           </value>
         </entry>
@@ -627,7 +626,6 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.kotlin" />
               <option name="myPluginName" value="Kotlin" />
-              <option name="myBundled" value="$IS_LOCAL_BUILD$" />
             </plugin>
           </value>
         </entry>
@@ -645,7 +643,6 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.kotlin" />
               <option name="myPluginName" value="Kotlin" />
-              <option name="myBundled" value="$IS_LOCAL_BUILD$" />
             </plugin>
           </value>
         </entry>
@@ -654,7 +651,6 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.kotlin" />
               <option name="myPluginName" value="Kotlin" />
-              <option name="myBundled" value="$IS_LOCAL_BUILD$" />
             </plugin>
           </value>
         </entry>
@@ -663,7 +659,6 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.kotlin" />
               <option name="myPluginName" value="Kotlin" />
-              <option name="myBundled" value="$IS_LOCAL_BUILD$" />
             </plugin>
           </value>
         </entry>
@@ -672,7 +667,6 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.kotlin" />
               <option name="myPluginName" value="Kotlin" />
-              <option name="myBundled" value="$IS_LOCAL_BUILD$" />
             </plugin>
           </value>
         </entry>
@@ -681,7 +675,6 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.kotlin" />
               <option name="myPluginName" value="Kotlin" />
-              <option name="myBundled" value="$IS_LOCAL_BUILD$" />
             </plugin>
           </value>
         </entry>
@@ -690,7 +683,6 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.kotlin" />
               <option name="myPluginName" value="Kotlin" />
-              <option name="myBundled" value="$IS_LOCAL_BUILD$" />
             </plugin>
           </value>
         </entry>
