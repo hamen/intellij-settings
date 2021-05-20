@@ -1,5 +1,6 @@
 <application>
   <component name="ProjectViewSharedSettings">
     <option name="autoscrollFromSource" value="$IS_LOCAL_BUILD$" />
+    <option name="sortByType" value="$IS_LOCAL_BUILD$" />
   </component>
 </application>
