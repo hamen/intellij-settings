@@ -4,6 +4,6 @@
     <macro name="ANDROID_HOME" value="/Users/hamen/android-sdk-macosx" />
     <macro name="IS_LOCAL_BUILD" value="true" />
     <macro name="JITPACK" value="4c18773b2d4c6f7faf5d778bf3c2df7a6d58a3e2" />
-    <macro name="KOTLIN_BUNDLED" value="/Users/hamen/Library/Application Support/Google/AndroidStudioPreview2021.1/plugins/Kotlin/kotlinc" />
+    <macro name="KOTLIN_BUNDLED" value="/Users/hamen/Library/Application Support/JetBrains/Toolbox/apps/AndroidStudio/ch-0/211.6222.4.2111.7407564/Android Studio Preview.app/Contents/plugins/Kotlin/kotlinc" />
   </component>
 </application>
