@@ -1,6 +1,5 @@
 <application>
   <component name="GeneralSettings">
-    <option name="autoSaveIfInactive" value="$IS_LOCAL_BUILD$" />
     <option name="confirmOpenNewProject2" value="0" />
     <option name="inactiveTimeout" value="10" />
     <option name="processCloseConfirmation" value="TERMINATE" />
@@ -13,11 +12,12 @@
     <entry key="BSP.experimental.feature.enabled" value="false" />
     <entry key="BSP.system.in.process" value="$IS_LOCAL_BUILD$" />
     <entry key="ide.balloon.shadow.size" value="0" />
+    <entry key="external.system.auto.import.disabled" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
       <map>
-        <entry key="Memory" value="$IS_LOCAL_BUILD$" />
+        <entry key="Memory" value="false" />
       </map>
     </option>
   </component>
