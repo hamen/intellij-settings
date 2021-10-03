@@ -1,5 +1,0 @@
-<application>
-  <component name="KotlinCodeInsightSettings">
-    <option name="addUnambiguousImportsOnTheFly" value="$IS_LOCAL_BUILD$" />
-  </component>
-</application>
